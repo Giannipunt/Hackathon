@@ -1,0 +1,99 @@
+body{
+	
+background-color:#B26B61;	
+font-size:12px;
+text-align:center;
+
+	
+}
+html{
+	display: inline;
+	
+}
+
+
+h1{
+	
+font-size: 60px;	
+	
+}
+
+#Container{
+width: 220px;
+background:url(bg1.png) repeat-x;
+margin: 0;
+padding: 0;
+text-align:center;
+border: 1px solid #FFAFA4;
+float: left;
+
+
+}
+
+#Container ul{
+margin: 0;
+padding: 0;
+list-style:none;
+text-align:center;
+
+	
+
+	
+}
+
+#Container ul li{
+	
+ 
+    
+    position: relative;
+}
+
+#Container ul li span{
+	
+display:block;
+background:url(buttonLeft.png) top left no-repeat;	
+	
+}
+
+#Container ul li a{
+text-decoration:none;
+color:white;
+font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+display:block;
+padding:8px;
+background:url(buttonRight.png) top right no-repeat;
+
+}
+
+
+
+
+#Container ul li span:hover {
+background:url(hoverLeft.png) top left no-repeat;
+}
+
+ 
+#Container ul li a:hover{
+background:url(hoverRight.png) top right no-repeat;
+
+}
+
+#Container ul ul {
+position: absolute;
+	
+	
+}
+
+
+#Container ul ul li a{
+	background:#bec8cb;
+	
+}
+
+
+#Container ul li:hover ul{
+width:90%;
+position:absolute;
+display:block; left:218px;
+top:0;
+}
