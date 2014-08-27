@@ -51,16 +51,18 @@ text-align:center;
  
     
     position: relative;
+    z-index: 200;
 }
 
 #Container ul li span{
-	
+	z-index: 200;
 display:block;
 background:url(Images/buttonLeft.png) top left no-repeat;	
 	
 }
 
 #Container ul li a{
+	z-index: 200;
 text-decoration:none;
 color:white;
 font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
