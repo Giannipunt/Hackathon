@@ -22,7 +22,7 @@ font-size: 60px;
 
 #Container{
 width: 220px;
-background:url(images/bg1.png) repeat-x;
+background:url(Images/bg1.png) repeat-x;
 margin: 0;
 padding: 0;
 text-align:center;
@@ -53,7 +53,7 @@ text-align:center;
 #Container ul li span{
 	
 display:block;
-background:url(images/buttonLeft.png) top left no-repeat;	
+background:url(Images/buttonLeft.png) top left no-repeat;	
 	
 }
 
@@ -63,7 +63,7 @@ color:white;
 font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
 display:block;
 padding:8px;
-background:url(images/buttonRight.png) top right no-repeat;
+background:url(Images/buttonRight.png) top right no-repeat;
 
 }
 
@@ -71,12 +71,12 @@ background:url(images/buttonRight.png) top right no-repeat;
 
 
 #Container ul li span:hover {
-background:url(images/hoverLeft.png) top left no-repeat;
+background:url(Images/hoverLeft.png) top left no-repeat;
 }
 
  
 #Container ul li a:hover{
-background:url(images/hoverRight.png) top right no-repeat;
+background:url(Images/hoverRight.png) top right no-repeat;
 
 }
 
