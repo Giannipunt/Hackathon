@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Booklet - jQuery Plugin</title>
+    <title>Music Book Reader</title>
     <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link href="css/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
     <link rel="stylesheet" type="text/css" href="css/index.css">
-<<<<<<< HEAD
 </head>
-=======
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
->>>>>>> f62cca2494f0b03f1ec2a7fc6c6e505a1f443269
 <body>		
 	<header>
 		<h1>Music Book Reader</h1>
@@ -28,7 +25,6 @@
 	<ul>
 		<li> <a class="menu" data-id="2" href="#">Cobra</a></li>
 		<li> <a class="menu" data-id="3" href="#">Verloren onschuld</a></li>
-		<li> <a class="menu" data-id="4" href="#">Verloren onschuld</a></li>
 	</ul>
 </li>
 <li>
@@ -50,13 +46,9 @@
 	        <div id="thirdPage" title="third page">
 	            <img class="animated fadeIn" src="books/boek1page2.jpg" height="100%" width="100%">
 	        </div>
-<<<<<<< HEAD
-=======
 	        <div id="fourthPage" title="fourth page">
 	            <img class="animated fadeIn" src="books/boek1page3.jpg" height="100%" width="100%">
 	        </div>
->>>>>>> f62cca2494f0b03f1ec2a7fc6c6e505a1f443269
-
 	    </div>
 	</section>
 	<footer></footer>
@@ -69,6 +61,6 @@
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.booklet.latest.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-    <embed name="Bullet For My Valentine Temper Temper Full Album" src="music/bulletformyvalentinetempertemperfull.mp3" loop="true" hidden="true" autostart="true">
+    <embed name="Bullet For My Valentine Temper Temper Full Album" src="music/bulletformyvalentinetempertemper.mp3" loop="true" hidden="true" autostart="true">
 </body>
 </html>
