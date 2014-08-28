@@ -1,106 +1,117 @@
+
+
+
 body{
+	background-color : #B26B61;
+	font-size        : 12px;
+	text-align       : center;
+
 	
-background-color:#B26B61;	
-font-size:12px;
-text-align:center;
+	
+}
+
+html{
+	display  : inline;
+
+	overflow : hidden;
 
 	
 }
-html{
-	overflow:hidden;
-	display: inline;
-	
-}
+
 header {
 }
 
-
 h1{
-	text-align: center;
-font-size: 5em;
-margin-top: 0px;
-height:40px;	
+	height     : 40px;
+	margin-top : 0px;
+
+	font-size  : 5em;
+	text-align : center;
+
 	
 }
 
 #Container{
-width: 220px;
-background:url(Images/bg1.png) repeat-x;
-margin: 0;
-padding: 0;
-text-align:center;
-border: 1px solid #FFAFA4;
-float: left;
+	float      : left;
 
+	width      : 220px;
+	margin     : 0;
+	padding    : 0;
 
+	background : url(Images/bg1.png) repeat-x;
+	text-align : center;
+	border     : 1px solid #FFAFA4;
 }
 
 #Container ul{
-margin: 0;
-padding: 0;
-list-style:none;
-text-align:center;
+	margin     : 0;
+	padding    : 0;
+
+	text-align : center;
+	list-style : none;
 
 	
-
 	
 }
 
 #Container ul li{
+	position : relative;
+	z-index  : 200;
+
 	
- 
-    
-    position: relative;
-    z-index: 200;
+	
+	
 }
 
 #Container ul li span{
-	z-index: 200;
-display:block;
-background:url(Images/buttonLeft.png) top left no-repeat;	
+	display    : block;
+	z-index    : 200;
+
+	background : url(Images/buttonLeft.png) top left no-repeat;
+
 	
 }
 
 #Container ul li a{
-	z-index: 200;
-text-decoration:none;
-color:white;
-font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
-display:block;
-padding:8px;
-background:url(Images/buttonRight.png) top right no-repeat;
+	display         : block;
+	z-index         : 200;
 
+	padding         : 8px;
+
+	background      : url(Images/buttonRight.png) top right no-repeat;
+	font-family     : Lucida Sans Unicode, Lucida Grande, sans-serif;
+	color           : white;
+	text-decoration : none;
 }
-
-
-
 
 #Container ul li span:hover {
-background:url(Images/hoverLeft.png) top left no-repeat;
+	background : url(Images/hoverLeft.png) top left no-repeat;
 }
 
- 
 #Container ul li a:hover{
-background:url(Images/hoverRight.png) top right no-repeat;
-
+	background : url(Images/hoverRight.png) top right no-repeat;
+}
+#Container ul li ul {
+	display:none;
 }
 
 #Container ul ul {
-position: absolute;
+	position : absolute;
+
 	
 	
 }
-
 
 #Container ul ul li a{
-	background:#bec8cb;
+	background : #bec8cb;
 	
 }
 
-
 #Container ul li:hover ul{
-width:90%;
-position:absolute;
-display:block; left:218px;
-top:0;
+	position            : absolute;
+	top                 : 0;
+
+	width               : 90%;
+
+	display:block; left : 218px;
 }
